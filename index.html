@@ -3,8 +3,11 @@
   <head>
       <meta charset="UTF-8">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <title>Privacy Policy - Magic Stream Viewer</title>
+      <title>Magic Stream Viewer — Support & Privacy Policy</title>
       <style>
+          * {
+              box-sizing: border-box;
+          }
           body {
               font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
               line-height: 1.6;
@@ -14,20 +17,53 @@
               padding: 40px 20px;
               background-color: #ffffff;
           }
+          header {
+              text-align: center;
+              margin-bottom: 40px;
+              padding-bottom: 24px;
+              border-bottom: 1px solid #d2d2d7;
+          }
           h1 {
               font-size: 28px;
-              font-weight: 600;
-              margin-bottom: 8px;
+              font-weight: 700;
+              margin: 0 0 8px 0;
+          }
+          .subtitle {
+              font-size: 15px;
+              color: #6e6e73;
+              margin: 0;
+          }
+          nav {
+              margin: 16px 0 0 0;
+          }
+          nav a {
+              color: #0071e3;
+              text-decoration: none;
+              font-size: 14px;
+              margin: 0 12px;
+          }
+          nav a:hover {
+              text-decoration: underline;
+          }
+          section {
+              margin-bottom: 48px;
           }
           h2 {
-              font-size: 20px;
+              font-size: 22px;
               font-weight: 600;
-              margin-top: 32px;
+              margin-top: 0;
+              margin-bottom: 16px;
+              padding-top: 8px;
+          }
+          h3 {
+              font-size: 17px;
+              font-weight: 600;
+              margin-top: 28px;
               margin-bottom: 12px;
           }
           p {
-              margin-bottom: 16px;
               font-size: 15px;
+              margin-bottom: 16px;
           }
           ul {
               padding-left: 20px;
@@ -36,6 +72,22 @@
           li {
               margin-bottom: 8px;
               font-size: 15px;
+          }
+          a {
+              color: #0071e3;
+              text-decoration: none;
+          }
+          a:hover {
+              text-decoration: underline;
+          }
+          .support-card {
+              background-color: #f5f5f7;
+              border-radius: 12px;
+              padding: 24px;
+              margin-bottom: 16px;
+          }
+          .support-card p:last-child {
+              margin-bottom: 0;
           }
           .updated {
               color: #6e6e73;
@@ -47,55 +99,79 @@
       </style>
   </head>
   <body>
-      <h1>Privacy Policy</h1>
-      <p><strong>Magic Stream Viewer</strong></p>
+      <header>
+          <h1>Magic Stream Viewer</h1>
+          <p class="subtitle">Support &amp; Privacy Policy</p>
+          <nav>
+              <a href="#support">Support</a>
+              <a href="#privacy">Privacy Policy</a>
+          </nav>
+      </header>
 
-      <h2>Overview</h2>
-      <p>This Privacy Policy describes how Magic Stream Viewer ("the App") handles information when you use the App on Apple TV. The App is designed with a minimal data approach and does not require you to create an account or provide personal information to use its core functionality.</p>
+      <section id="support">
+          <h2>Support</h2>
+          <div class="support-card">
+              <p>For support, feedback, feature requests, or bug reports, please contact us:</p>
+              <p><strong>Email:</strong> <a href="mailto:tmgcof@icloud.com">tmgcof@icloud.com</a></p>
+              <p>We typically respond within 1–2 business days.</p>
+          </div>
+          <p>When reporting an issue, please include:</p>
+          <ul>
+              <li>Your Apple TV model and tvOS version</li>
+              <li>The app version (visible in Settings &gt; About)</li>
+              <li>A brief description of what happened and steps to reproduce</li>
+          </ul>
+      </section>
 
-      <h2>Information We Do Not Collect</h2>
-      <ul>
-          <li>The App does not ask for your name, email address, phone number, or any other directly identifying personal information.</li>
-          <li>The App does not access your contacts, photos, location, camera, or microphone.</li>
-          <li>The App does not read or store data from other apps on your device.</li>
-      </ul>
+      <section id="privacy">
+          <h2>Privacy Policy</h2>
 
-      <h2>Information Automatically Collected</h2>
-      <p>The App may collect limited, anonymous technical information to improve stability and performance:</p>
-      <ul>
-          <li>App version and device model</li>
-          <li>tvOS version</li>
-          <li>Aggregate usage statistics, such as which screens are viewed and general playback events</li>
-          <li>Crash reports, if the App unexpectedly quits</li>
-      </ul>
-      <p>This information is not linked to your identity and is used solely for diagnostic and improvement purposes.</p>
+          <p>This Privacy Policy describes how Magic Stream Viewer ("the App") handles information when you use the App on Apple TV. The App is designed with a minimal data approach and does not require you to create an account or provide personal information to use its core functionality.</p>
 
-      <h2>How Information Is Used</h2>
-      <p>Any collected information is used to:</p>
-      <ul>
-          <li>Diagnose and fix technical issues</li>
-          <li>Improve app performance and stability</li>
-          <li>Understand general usage patterns to guide future improvements</li>
-      </ul>
+          <h3>Information We Do Not Collect</h3>
+          <ul>
+              <li>The App does not ask for your name, email address, phone number, or any other directly identifying personal information.</li>
+              <li>The App does not access your contacts, photos, location, camera, or microphone.</li>
+              <li>The App does not read or store data from other apps on your device.</li>
+          </ul>
 
-      <h2>Data Storage</h2>
-      <p>The App does not store personal data on your device or on remote servers. Anonymous diagnostic data, if collected, is transmitted to analytics services and aggregated with data from other users.</p>
+          <h3>Information Automatically Collected</h3>
+          <p>The App may collect limited, anonymous technical information to improve stability and performance:</p>
+          <ul>
+              <li>App version and device model</li>
+              <li>tvOS version</li>
+              <li>Aggregate usage statistics, such as which screens are viewed and general playback events</li>
+              <li>Crash reports, if the App unexpectedly quits</li>
+          </ul>
+          <p>This information is not linked to your identity and is used solely for diagnostic and improvement purposes.</p>
 
-      <h2>Third-Party Services</h2>
-      <p>The App may use third-party SDKs for crash reporting and anonymous analytics. These services operate under their own privacy policies and are contractually required to handle data in accordance with applicable privacy regulations.</p>
+          <h3>How Information Is Used</h3>
+          <p>Any collected information is used to:</p>
+          <ul>
+              <li>Diagnose and fix technical issues</li>
+              <li>Improve app performance and stability</li>
+              <li>Understand general usage patterns to guide future improvements</li>
+          </ul>
 
-      <h2>Children's Privacy</h2>
-      <p>The App is not directed at children under the age of 13 and does not knowingly collect personal information from children. If you believe a child has provided personal information through the App, please contact us so we can take appropriate action.</p>
+          <h3>Data Storage</h3>
+          <p>The App does not store personal data on your device or on remote servers. Anonymous diagnostic data, if collected, is transmitted to analytics services and aggregated with data from other users.</p>
 
-      <h2>Your Privacy Choices</h2>
-      <p>Since the App does not collect personal information linked to your identity, there is no personal data to access, correct, or delete. You may disable anonymous crash reporting and analytics by using the tvOS system settings for privacy.</p>
+          <h3>Third-Party Services</h3>
+          <p>The App may use third-party SDKs for crash reporting and anonymous analytics. These services operate under their own privacy policies and are contractually required to handle data in accordance with applicable privacy regulations.</p>
 
-      <h2>Changes to This Policy</h2>
-      <p>We may update this Privacy Policy from time to time. When we do, we will revise the "Last updated" date at the bottom of this page. We encourage you to review this policy periodically to stay informed about how we protect your information.</p>
+          <h3>Children's Privacy</h3>
+          <p>The App is not directed at children under the age of 13 and does not knowingly collect personal information from children. If you believe a child has provided personal information through the App, please contact us so we can take appropriate action.</p>
 
-      <h2>Contact Us</h2>
-      <p>For questions regarding data privacy, you can reach the Application's developer through the standard App Store feedback channels or by email at tmgcof@icloud.com.</p>
+          <h3>Your Privacy Choices</h3>
+          <p>Since the App does not collect personal information linked to your identity, there is no personal data to access, correct, or delete. You may disable anonymous crash reporting and analytics by using the tvOS system settings for privacy.</p>
 
-      <p class="updated">Last updated: November 2026</p>
+          <h3>Changes to This Policy</h3>
+          <p>We may update this Privacy Policy from time to time. When we do, we will revise the "Last updated" date at the bottom of this page. We encourage you to review this policy periodically to stay informed about how we protect your information.</p>
+
+          <h3>Contact Us</h3>
+          <p>If you have questions or concerns about this Privacy Policy or the App's data practices, please contact us at <a href="mailto:tmgcof@icloud.com">tmgcof@icloud.com</a>.</p>
+
+          <p class="updated">Last updated: November 2026</p>
+      </section>
   </body>
   </html>
